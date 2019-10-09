@@ -25,6 +25,17 @@
     margin: 20px;
 }
 
+.RouletteGun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    margin: 0 20px;
+}
+
 .left {
     background-color: darkslategray;
     color: azure;
