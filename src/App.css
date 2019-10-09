@@ -5,6 +5,16 @@
     min-height: calc(100vh - 80px);
 }
 
+.HelloWorld {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: cadetblue;
+    padding: 20px;
+    margin: 20px;
+}
+
 .left {
     background-color: darkslategray;
     color: azure;
