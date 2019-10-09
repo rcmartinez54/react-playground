@@ -15,6 +15,16 @@
     margin: 20px;
 }
 
+.CountdownBomb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orangered;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
 .left {
     background-color: darkslategray;
     color: azure;
