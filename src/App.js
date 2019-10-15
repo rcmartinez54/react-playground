@@ -9,6 +9,7 @@ import HelloWorld from './state-drills/HelloWorld.js'
 import Bomb from './state-drills/Bomb.js'
 import RouletteGun from './state-drills/RouletteGun.js'
 import Tabs from './state/Tabs';
+import Accordion from './state-drills/Accordion.js'
 
 const firstTooltip = (
   <Tooltip color='hotpink' message='tooltip message'>
@@ -62,6 +63,7 @@ class App extends Component {
         <Bomb />
         <RouletteGun />
         <Tabs tabs={tabsProp} />
+        <Accordion />
       </div>
     );
   }
