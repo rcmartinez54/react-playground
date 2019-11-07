@@ -10,6 +10,7 @@ import Bomb from './state-drills/Bomb.js'
 import RouletteGun from './state-drills/RouletteGun.js'
 import Tabs from './state/Tabs';
 import Accordion from './state-drills/Accordion.js'
+import DemonymApp from './demonymapp/demonymApp';
 
 const firstTooltip = (
   <Tooltip color='hotpink' message='tooltip message'>
@@ -64,6 +65,7 @@ class App extends Component {
         <RouletteGun />
         <Tabs tabs={tabsProp} />
         <Accordion />
+        <DemonymApp />
       </div>
     );
   }
