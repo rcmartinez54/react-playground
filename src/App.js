@@ -56,6 +56,7 @@ class App extends Component {
       <div className='App'>
         <h1>React Playground!</h1>
         <div>Hello!</div>
+        <DemonymApp />
         <Messages name="Messages" unread={0}/>
         <Messages name="Notifications" unread={10}/>
         <TheDate />
@@ -65,10 +66,26 @@ class App extends Component {
         <RouletteGun />
         <Tabs tabs={tabsProp} />
         <Accordion />
-        <DemonymApp />
+        
       </div>
     );
   }
 }
 
 export default App;
+
+// import React, { Component } from 'react';
+// import './App.css';
+// import DemonynApp from './demonymapp/demonymApp';
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className="App">
+//         <DemonynApp/>
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
