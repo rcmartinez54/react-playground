@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './demonymApp.css'
-
 import Demonym from './demonym';
 import CountrySelector from './countrySelector';
 
